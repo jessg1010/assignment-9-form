@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-	<title>How Well Do You Know Gilmore Girls?</title>
+	<title>How Well Do You Know "Gilmore Girls"?</title>
 
 	<link rel="stylesheet" href="css/bootstrap-theme.css">
 </head>
@@ -25,34 +25,34 @@ to air on Netflix later this year. For more information, visit the show's
 <div class="form-group">
     <label for="inputName">What is Lorelai's dog's name? </label>
     <input class="form-control" type="text"
-      id="inputName" placeholder="Name">
+      id="inputName" name="dog" placeholder="Name">
 </div>
 
 <p>Which actors appeared regularly on the show?
 (more than one may apply)</p>
 <div class="checkbox">
   <label>
-    <input type="checkbox" name=character id="actor1" value="choice1">
+    <input type="checkbox" name="actor" id="actor1" value="option1">
       Kelly Bishop
     </label>
   </div>
 
   <div class="checkbox">
     <label>
-      <input type="checkbox" name=character id="actor2" value="choice2">
+      <input type="checkbox" name="actor" id="actor2" value="option2" >
         Jensen Ackles
       </label>
     </div>
 
     <div class="checkbox">
       <label>
-        <input type="checkbox" name=character id="actor3" value="choice3">
+        <input type="checkbox" name="actor" id="actor3" value="option3">
           Liza Weil
         </label>
       </div>
       <div class="checkbox">
         <label>
-          <input type="checkbox" name=character id="actor4" value="choice4">
+          <input type="checkbox" name="actor" id="actor4" value="option4">
             Keiko Agena
           </label>
         </div>
@@ -60,27 +60,27 @@ to air on Netflix later this year. For more information, visit the show's
 <p>Which real town is Stars Hollow based on?</p>
         <div class="radio">
           <label>
-            <input name="location" type="radio" id="town1" value="option1">
+            <input name="location" type="radio" name="town" id="town1" value="choice1">
               Bridgeport, Connecticut
             </label>
           </div>
 
           <div class="radio">
             <label>
-              <input name="location" type="radio" id="town2" value="option2">
+              <input name="location" type="radio" name="town" id="town2" value="choice2">
                 Washington Depot, Connecticut
               </label>
             </div>
 
             <div class="radio">
               <label>
-                <input name="location" type="radio" id="town3" value="option3">
+                <input name="location" type="radio" name="town" id="town3" value="choice3">
                   Amherst, Massachusetts
                 </label>
               </div>
               <div class="radio">
                 <label>
-                  <input name="location" type="radio" id="town4" value="option4">
+                  <input name="location" type="radio" name="town" id="town4" value="choice4">
                     Hartford, Connecticut
                   </label>
                 </div>
@@ -92,20 +92,20 @@ to air on Netflix later this year. For more information, visit the show's
 
 <p>What was Rory's major in college?
 <select name="CollegeMajor">
-  <option name=major id="number1" value="answer1">History</option>
-  <option name=major id="number2" value="answer2">English</option>
-  <option name=major id="number3" value="answer3">Creative Writing</option>
-  <option name=major id="number4" value="answer4">Journalism</option>
-  <option name=major id="number5" value="answer5">Linguistics</option>
-  <option name=major id="number6" value="answer6">Spanish</option>
-  <option name=major id="number7" value="answer7">Classics</option>
-  <option name=major id="number8" value="answer8">Psychology</option>
+  <option name="major" id="major1" value="answer1">History</option>
+  <option name="actor" id="actor2" value="answer2">English</option>
+  <option name="actor" id="actor3" value="answer3">Creative Writing</option>
+  <option name="actor" id="actor4" value="answer4">Journalism</option>
+  <option name="actor" id="actor5" value="answer5">Linguistics</option>
+  <option name="actor" id="actor6" value="answer6">Spanish</option>
+  <option name="actor" id="actor7" value="answer7">Classics</option>
+  <option name="actor" id="actor8" value="answer8">Psychology</option>
+</select>
 </p>
 
-<label for="inputDate">When is "Gilmore Girls: A Year in the Life" set
-to air on Netflix?</label>
-<input class="form-control" type="date" id="inputdate" placeholder="Date">
-
+<label for="inputDate"><p>When is "Gilmore Girls: A Year in the Life" set
+to air on Netflix?<p></label>
+<input class="form-control" type="date" name="date" id="inputdate" placeholder="Date">
 
 <button type="button" class="btn btn-default pull-right" value="reset">
   <span class="glyphicon glyphicon-ok"
